@@ -1,0 +1,33 @@
+div{
+    p:nth-child(1){
+        font-size: 70px;
+        text-align: center;
+        padding: 40px 0 ;
+    }
+    p:nth-child(2){
+        font-size: 40px;
+        margin-left:18px
+    }
+
+    button{
+        padding: 12px 24px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        width: fit-content;
+    }
+    
+    .increment{
+        background-color: greenyellow;
+    }
+    .decrement{
+        background-color: cadetblue;
+    }
+    .delBtn{
+        background-color: red;
+    }
+}

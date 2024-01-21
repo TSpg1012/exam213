@@ -1,0 +1,96 @@
+nav{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    position: absolute;
+    top: 0;
+    width: 100%;
+z-index: 2;
+    .estore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-weight: bold;
+            font-size: 36px;
+        }
+        span{
+            color: orange;
+        }
+    }
+
+
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 48px;
+            font-size: 14px;
+            font-weight: 500;
+            li:hover{
+                color: red;
+                transition: all 0.3s ease;
+            }
+        }
+    }
+
+    .datalinks{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        align-items: center;
+        .search{
+            display: flex;
+        align-items: center;
+        border: 1px solid rgb(216, 216, 216);
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+        background-color: white;
+            input{
+                padding: 12px;
+                border: none;
+                outline: none;
+                border-top-left-radius: 24px;
+                border-bottom-left-radius: 24px;
+            }
+            .lupa{
+                border: none;
+                 width: 40px;
+                 height: 20px;
+                 border-top-right-radius: 24px;
+                border-bottom-right-radius: 24px;
+            }
+        }
+        .wishlist{
+            border-radius: 50%;
+        border: 1px solid rgb(216, 216, 216);
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+        }
+        .basket{
+            border-radius: 50%;
+        border: 1px solid rgb(216, 216, 216);
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+        }
+
+        button{
+            padding: 12px 24px;
+            background-color: #2577FD;
+            font-size: 18px;
+            color: white;
+            border: none;
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+        
+    }
+}

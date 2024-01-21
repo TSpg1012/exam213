@@ -1,0 +1,79 @@
+.category{
+    p{
+        text-align: center;
+        font-size: 48px;
+        padding: 48px;
+    }
+
+    .photos{
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        .image{
+            position: relative;
+            .first{
+                background-repeat: no-repeat;
+                background-image: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg");
+              p{
+                font-size: 40px
+              }
+            }
+            .second{
+                background-repeat: no-repeat;
+                background-image: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg");
+              p{
+                font-size: 40px
+              }
+              button{
+                background-color: transparent;
+                border: none;
+                color: black;
+              }
+            }
+            .third{
+                background-repeat: no-repeat;
+                background-image: url("https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg");
+              p{
+                font-size: 40px
+              }
+              
+            }
+            div{
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content:center ;
+                align-items: flex-end;
+                div{
+                   padding-right: 40px;
+                   transform: translate(0 , -10%);
+                p{
+                    width: fit-content;
+                    // position: absolute;
+                    // right: 20px;
+                    // top: 20px;
+                    padding: 0;
+                }
+                button{
+                    // position: absolute;
+                    // top: 120px;
+                    // right: 50px;
+                    padding: 12px 24px;
+                    background-color: #FFCE25;
+                    font-size: 18px;
+                    color: white;
+                    border: none;
+                    border-top-left-radius: 24px;
+                    border-bottom-left-radius: 24px;
+                    border-top-right-radius: 24px;
+                    border-bottom-right-radius: 24px;
+                    width: fit-content;
+                    }
+               }
+            }
+        }
+}
+
+}
